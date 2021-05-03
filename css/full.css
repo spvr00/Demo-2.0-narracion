@@ -5,6 +5,10 @@ body {
 	--color-link-hover: #fff;
 }
 
+h1 {
+	--color-text: rgb(255, 196, 0);
+}
+
 .content__type {
 	font-size: 5.5vw;
 	max-width: calc(100vw - 20rem);

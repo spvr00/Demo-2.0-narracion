@@ -27,9 +27,26 @@ a:focus {
   font-weight: 700;
   text-transform: uppercase;
 }
+.content__titulo {
+  font-size: 1rem;
+  margin: 2rem 0 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  --color-text: rgb(255, 196, 0);
+}
 
 .content__type {
-  font-size: 2.5vw;
+  font-size: 5.5vw;
   margin: 3rem auto 5rem;
   line-height: 1.25;
   font-family: halyard-display, sans-serif;

@@ -142,6 +142,10 @@ body {
 	pointer-events: none;
 }
 
+h1 {
+	--color-text: rgb(255, 196, 0);
+}
+
 .content__title {
 	padding: 2rem;
 	font-weight: 400;

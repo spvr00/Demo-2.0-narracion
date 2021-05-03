@@ -1,17 +1,17 @@
 body {
-  --color-bg: #0f0f11;
-  --color-text: #e3e5eb;
+  --color-bg: #000000;
+  --color-text: #ffffff;
   --color-link: #595980;
   --color-link-hover: #fff;
 }
 
 .content__type {
-  font-size: 7vw;
+  font-size: 5vw;
   margin: 0 auto;
-  text-align: justify;
-  font-family: condor-compressed, sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  font-weight: bold;
+  text-transform: none;
   padding: 5rem 0;
   line-height: 1;
   backface-visibility: hidden;
@@ -21,13 +21,20 @@ body {
   -o-user-select: none;
   user-select: none;
   background-size: 80%;
+  --color-text: rgb(255, 255, 255);
 }
 
+h1 {
+  --color-text: rgb(255, 208, 0);
+}
 .content__type-special {
-  font-size: 29vw;
+  font-size: 10vw;
   display: block;
   margin: 0 auto;
   text-align: center;
+  font-weight: bold;
+  font-family: 'Teko', sans-serif;
+  
 }
 
 .content__img {

@@ -36,6 +36,20 @@ body {
 	height: 100vh;
 	pointer-events: none;
 }
+h1 {
+    display: block;
+	text-transform: var(--color-text) rgb(255, 208, 0);
+	-moz-text-decoration-color: rgb(255, 217, 0);
+    font-size: 6em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: condor-compressed, sans-serif;
+}
 
 .fold-scroller {
 	height: 100%;

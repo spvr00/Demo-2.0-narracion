@@ -19,6 +19,10 @@ body {
   user-select: none;
 }
 
+h1{
+  --color-text: rgb(255, 196, 0);
+}
+
 .type {
   --type-size: 9vw;
   font-size: var(--type-size);
