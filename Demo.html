@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>3D Folded Layout | Demo 3 | Codrops</title>
+    <meta name="description" content="An experiemntal 3D layout technique for HTML elements." />
+    <meta name="keywords" content="3d, layout, html, css, bending, javascript, demo" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/yxd7izj.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/split.css" />
+    <script>
+    document.documentElement.className = "js";
+    var supportsCssVars = function() {
+        var e,
+            t = document.createElement("style");
+        return (
+            (t.innerHTML = "root: { --tmp-var: bold; }"),
+            document.head.appendChild(t),
+            (e = !!(
+                window.CSS &&
+                window.CSS.supports &&
+                window.CSS.supports("font-weight", "var(--tmp-var)")
+            )),
+            t.parentNode.removeChild(t),
+            e
+        );
+    };
+    supportsCssVars() ||
+        alert(
+            "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+</head>
+
+<body class="demo-3 loading">
+    <main>
+        <div class="message">Some message for mobile (if needed).</div>
+        <div class="frame"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="fold-content" id="base-content">
+                <!-- CONTENT INSIDE HERE -->
+                <h1 class="content__titulo">El Poder del Cine</h1>
+                <p class="content__type">
+                <img class="content__img" src="https://i0.wp.com/www.moviehousememories.com/wp-content/uploads/2014/02/Star-Wars-Episode-IV-A-New-Hope-1977-featured.jpg?fit=1200%2C675&ssl=1" alt="Some image" />
+                <p></p>
+                    <span class="content__type-special">Desde las imágenes</span>
+                </p>
+                <img class="content__img" src="http://giffetteria.it/archivio/shining15.gif" alt="the shinning" />
+                <p class="content__type-special">
+                    Hasta el sonido
+                </p>
+                <img class="content__img" src="http://3.bp.blogspot.com/-5dIaOeQZnPk/ThpMF4_b2GI/AAAAAAAABt8/VQ1JrqPACNY/s1600/Cantando+bajo+la+lluvia-poster.jpg" alt="cantando bajo la lluvia" />
+                <p class="content__type">
+                   El cine ha tenido el poder de desconectarnos del mundo real, y sumergirnos en un mundo de posibilidades. 
+                   Uno puede encontrarse con un mundo de acción o un mundo de aventura, un mundo de romance o un mundo de terror, entre muchos otros géneros. 
+                   El punto es que no importa la situación en la que me encuentre, personalmente el cine ha logrado distraerme del mundo aunque sea por un rato, y a mi parecer ese es un enorme poder.
+                </p>
+                <img class="content__img" src="https://media1.tenor.com/images/abfca2f056f0abfb4193f7b4ce5a1d8f/tenor.gif?itemid=7199846" alt="Some image" />
+                <p class="content__type"><br /></p>
+            </div>
+            <div class="screen" id="fold-wrapper"></div>
+            <button class="btn-debug" id="btn-debug">See Planes</button>
+        </div>
+    </main>
+    <script src="./js/imagesloaded.pkgd.min.js"></script>
+    <script src="./js/split.js"></script>
+</body>
+
+</html>
