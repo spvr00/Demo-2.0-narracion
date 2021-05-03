@@ -1,6 +1,6 @@
 body {
-  --color-bg: #000000;
-  --color-text: #ffffff;
+  --color-bg: #ffbb00;
+  --color-text: #000000;
   --color-link: #595980;
   --color-link-hover: #fff;
 }
@@ -9,11 +9,11 @@ body {
   font-size: 5vw;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Teko', sans-serif;
-  font-weight: bold;
+  font-family: 'Goudy Bookletter 1911', serif;
   text-transform: none;
   padding: 5rem 0;
   line-height: 1;
+  font-weight: bold;
   backface-visibility: hidden;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -33,12 +33,13 @@ h1 {
   margin: 0 auto;
   text-align: center;
   font-weight: bold;
-  font-family: 'Teko', sans-serif;
-  
+  font-family: trajan-pro-3, serif;
+  --color-text: black;
 }
 
 .content__img {
   width: 100%;
+  box-shadow: black;
   display: block;
   backface-visibility: hidden;
 }
